@@ -17,5 +17,8 @@ The folder with Serialandbuttonsequencer is the managing arduino code which is w
 
 My encoder software is setup with normal closed buttons because I was using some cheap EGstarts arcade buttons before, which I would not recomend. Look to David Madison's basic examples for your encoder firmware. They can be used with my management code since they are being rebooted by pulling down the run pin, which is only dependent on hardware.
 
+Note for MAME users:
+If you start up MAME without your mapped controllers in place, it will set the controls back to default. To avoid this, make your control config files read only once you have them setup. This is part of the reason I am working on the new serial control method with raspberry pi pico encoders.
+
 The xinput library was created by David Madisson
 https://github.com/dmadison/ArduinoXInput
