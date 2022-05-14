@@ -13,6 +13,8 @@ I am currently working on another project using 4 pico encoders which works almo
 
 Please note that the diagrams make reference to receiving an incorrect position status from the other controllers to automatically trigger a restart sequence. This function would be very useful, but is not currently working (I did not finish figuring out the reported LED status in the Xinput library).
 
+The folder with Serialandbuttonsequencer is the managing arduino code which is wired to the run pins on all the other encoders. In that folder you will also see some batch scripts which can change between 1 and 2 player mode. You can also use the batch script in your windows startup to put the players in the correct order after rebooting your computer. Check the port number of this arduino in device manager, and make the .bat files and device manager assigned port match (easier to change in windows, unless that port is unavailable).
+
 My encoder software is setup with normal closed buttons because I was using some cheap EGstarts arcade buttons before, which I would not recomend. Look to David Madison's basic examples for your encoder firmware. They can be used with my management code since they are being rebooted by pulling down the run pin, which is only dependent on hardware.
 
 The xinput library was created by David Madisson
