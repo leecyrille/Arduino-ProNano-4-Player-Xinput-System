@@ -22,3 +22,18 @@ If you start up MAME without your mapped controllers in place, it will set the c
 
 The xinput library was created by David Madisson
 https://github.com/dmadison/ArduinoXInput
+
+Project Photos:
+![image](https://user-images.githubusercontent.com/29419798/168445038-afdc9bdb-4b6c-43f4-9cc5-564432a1c696.png)
+
+Photo of the manager controller with admin buttons in a wiring harness:
+![image](https://user-images.githubusercontent.com/29419798/168445071-4fdd1555-eb4a-4cf4-b4c4-e69531926596.png)
+
+
+![image](https://user-images.githubusercontent.com/29419798/168445124-c183cc83-fad0-40f7-9f6c-deb3b5572cec.png)
+
+![2021-06-26 23 20 48](https://user-images.githubusercontent.com/29419798/168445159-9584b750-30fa-42ed-83ff-06823afbf640.jpg)
+
+![2021-06-26 23 20 48-1_CROP](https://user-images.githubusercontent.com/29419798/168445172-8e902efa-8def-4964-9a00-c1be9ce23e55.jpg)
+
+
