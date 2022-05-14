@@ -9,4 +9,11 @@ The system works fairly well, but the players will be in the wrong order if you 
 
 It takes roughly 20 seconds for the players to up and running in the right order.
 
-I am currently working on another project using 4 pico encoders which works almost instantly by sharing the controls over serial communication to the encoder in correct position, I think it will generally work better than this project, so I won't be working on this anymore. This is here for future reference mostly.
+I am currently working on another project using 4 pico encoders which works almost instantly by sharing the controls over serial communication to the encoder in correct position, I think it will generally work better than this project, so I won't be working on this anymore. This is mostly here for future reference.
+
+Please note that the diagrams make reference to receiving an incorrect position status from the other controllers to automatically trigger a restart sequence. This function would be very useful, but is not currently working (I did not finish figuring out the reported LED status in the Xinput library).
+
+My encoder software is setup with normal closed buttons because I was using some cheap EGstarts arcade buttons before, which I would not recomend. Look to David Madison's basic examples for your encoder firmware. They can be used with my management code since they are being rebooted by pulling down the run pin, which is only dependent on hardware.
+
+The xinput library was created by David Madisson
+https://github.com/dmadison/ArduinoXInput
