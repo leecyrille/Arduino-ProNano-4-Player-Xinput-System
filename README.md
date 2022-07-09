@@ -1,3 +1,5 @@
+I have a STM32F1 solution for 4 player xinput under development, which will hopefully replace this system. I would not recomend using this scheme as is anymore.
+
 # Arduino-4-Player-Xinput-System
 A system that uses 5 Arduino Pro Nano to put 4 player arcade controls in order. Also provides admin buttons with keyboard output.
 
